@@ -1,0 +1,91 @@
+body, .jumbotron{
+    background-image: url('particion.jpg');
+    background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: inherit;
+  
+}
+
+
+.jumbotron {
+    background-color: white;
+    display: flex;
+}
+
+.rounded-circle{
+    width: 100px;  
+    height: 100px;
+    border-radius: 50%;  
+}
+
+.imgmoi{
+    margin-left: 7%;
+    
+}
+
+.container{
+    margin-left: 1px;
+}
+
+.text-white{
+    border-radius: 25px;
+}
+.infor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.card{
+    margin: 10px;
+    margin-bottom: 40px;
+}
+.card-img-top{
+ height: 30%;
+ 
+
+}
+
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.categorie{
+    display: flex;
+    justify-content:center ;
+    margin-left: 120px;  
+}
+.super{
+    margin-bottom: 20%;
+}
+
+h5{
+    margin-top: 10%;
+}
+
+a{
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width:700px){
+    .jumbotron{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .container{
+        text-align: center; 
+    }
+    .imgmoi{
+        margin-left: 0;
+    }
+  
+   
+    
+}
